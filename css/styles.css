@@ -1,0 +1,220 @@
+html {
+    font-family: 'Indie Flower', cursive;
+    background-color: black;
+
+}
+
+body {
+
+
+    background: linear-gradient(-45deg, #2121ff, #a9a9a9, #11b7f4, #54ffd7);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.scoree1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+#title {
+    padding-top: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-decoration: underline;
+    margin-bottom: 70px;
+}
+
+p {
+    color: white;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#buy {
+    padding: 20px;
+
+    border-radius: 25px;
+    transition: transform .2s;
+
+}
+
+#buy-auto-clicker {
+    padding: 20px;
+
+    border-radius: 25px;
+    transition: transform .2s;
+
+
+}
+
+#buy:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+#buy-auto-clicker:hover {
+
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#score {
+
+    border: 50px;
+
+    padding-top: 50px;
+    color: #fff;
+
+
+}
+
+#score:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    cursor: grab;
+
+
+}
+
+#scoretext {
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+
+.container {
+
+    background-color: #131313;
+    background-size: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 350px;
+
+}
+
+.likess {
+    width: 20px;
+    padding-left: 10px;
+
+}
+
+.container1 {
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+
+#scoretext {
+    height: 500px;
+    border: 1px solid;
+    width: 200px;
+    float: right;
+    position: relative;
+}
+
+@keyframes moneyAnimation {
+    0% {
+        opacity: 1;
+        top: 0;
+    }
+
+    100% {
+        opacity: 0;
+        top: -50px;
+    }
+}
+
+#scoretext {
+    animation: scoretext 1s forwards;
+    position: absolute;
+}
+
+#score2 {
+    padding-top: 30px;
+    display: none;
+    margin: 0 auto;
+
+}
+
+#score2:hover {
+    cursor: grab;
+    transform: scale(1.1);
+    transition: 0.1s;
+
+}
+
+#score3 {
+    padding-top: 30px;
+    display: none;
+    margin: 0 auto;
+}
+
+#score3:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    cursor: grab;
+
+}
+
+#reset {
+    padding: 20px;
+    width: 60px;
+
+    border-radius: 25px;
+    transition: transform .2s;
+}
+
+#reset:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#newsbar {
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#newsbar a {
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    font-size: 15px;
+    text-decoration: none;
+
+}

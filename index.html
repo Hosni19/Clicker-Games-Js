@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <marquee id="newsbar" direction="left" scrollamount="3" behavior="scroll" onmouseover="this.stop()"
+            onmouseout="this.start()">
+            <a href="#" style="color: red;font-weight: bold;">Breaking News :</a>
+            <span> -*- </span>
+            <a href="#" style="font-weight:bold;">Si t'arrives a collecter 20 millions de likes tu gagnes une
+                lamborghini</a>
+
+            <a href="#" style="font-weight:bold;">- t'as vraiment cru que tu vas gagner une lamborghini ?
+                HAHAHAHAHAH</a>
+            <span> -*- </span>
+
+        </marquee>
+        <h1>LIKES CLICKER GAME!</h1>
+    </header>
+    <audio id="audio" src="Facebook Like - Sound Effect.mp3"></audio>
+    <audio id="audio1" src="Fail sound effect #1.mp3"></audio>
+    <div class="background">
+
+        <section class="scoree1">
+
+            <p id="title">Appuyez sur le bouton Like pour avoir plus de Likes!</p>
+            <div id="charging" class="fa"></div>
+            <img id="score" src="images/facebook-love-png-3.png" alt="" width="270px" onclick="addOne();">
+            <img id="score2" src="images/facebook-love-png-32.png" alt="" width="270px">
+            <img id="score3" src="images/facebook-love-png-33.png" alt="" width="270px">
+            <p id="scoreText" style="font-family: 'Indie Flower', cursive;" id="auto-clickers ; font-weight:bold; size=50px ;"  >Score : 0</p>
+            
+
+
+
+            <section class="container1">
+                <h2>Store</h2>
+            </section>
+                
+                <section class="container">
+                <div class="flex-container">
+                    <p id="clicker1" style="font-family: 'Indie Flower', cursive;">Prix du Clicker: 10 clicks</p>
+                    <img id="buy" src="images/Like-Button-PNG-Image-HD.png" width=90px>
+                    <p id="clicker" style="font-family: 'Indie Flower', cursive;">x1</p>
+                </div>
+
+                <div class="flex-container">
+                    <p id="auto" style="font-family: 'Indie Flower', cursive;">Prix d'auto clicker: 100 clicks</p>
+                    <img id="buy-auto-clicker" src="images/Autoclicker_default.webp" width=90px>
+                    <p style="font-family: 'Indie Flower', cursive;" id="auto-clickers">x0</p>
+                </div>
+
+                <div class="flex-container">
+                    <p id="clicker1" style="font-family: 'Indie Flower', cursive;">Reset le jeu</p>
+                    <img id="reset" src="images/reset.png" width=80px onclick="reset()">
+
+                </div>
+
+            </section>
+
+    </div>
+
+
+    <script src="game.js"></script>
+    </section>
+
+
+</body>
+<footer>
+
+</footer>
+
+</html>
